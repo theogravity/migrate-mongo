@@ -1,5 +1,10 @@
 # Changelog
 
+## 12.0.1
+
+Added a modification of @prashantswami PR [Replace Lodash with Smaller Modular Packages for Improved Performance and to remove security vulnerabilities](https://github.com/seppevs/migrate-mongo/pull/447) replaces the lone `lodash` dependency with smaller, more focused packages
+ to also address security issues.
+
 ## 12.0.0
 
 - Rebased against the repo that this project is forked from, [`seppevs/migrate-mongo`](migrate-mongo)
