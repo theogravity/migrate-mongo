@@ -1,5 +1,9 @@
 # Changelog
 
+## 12.0.2
+
+Readme update to say node 18 is required.
+
 ## 12.0.1
 
 Added a modification of @prashantswami PR [Replace Lodash with Smaller Modular Packages for Improved Performance and to remove security vulnerabilities](https://github.com/seppevs/migrate-mongo/pull/447) replaces the lone `lodash` dependency with smaller, more focused packages
