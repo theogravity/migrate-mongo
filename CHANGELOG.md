@@ -1,10 +1,20 @@
 # Changelog
 
+## 12.0.1
+
+Added a modification of @prashantswami PR [Replace Lodash with Smaller Modular Packages for Improved Performance and to remove security vulnerabilities](https://github.com/seppevs/migrate-mongo/pull/447) replaces the lone `lodash` dependency with smaller, more focused packages
+ to also address security issues.
+
 ## 12.0.0
 
 - Rebased against the repo that this project is forked from, [`seppevs/migrate-mongo`](migrate-mongo)
   * Rebase is against v11.0.0
+  * Includes support for Mongo 7
 - [@sam-myers](https://github.com/sam-myers): Add oplog logging to print oplog timestamps, which is useful for MongoDB Atlas point-in-time restores. In the event of a faulty migration, this will allow restoration of the database to the exact last possible moment via the Atlas UI.
+
+**Breaking Changes**
+
+- Node 18 is now the baseline engine
 
 ## 11.1.0
 
