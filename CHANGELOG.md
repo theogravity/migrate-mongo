@@ -1,5 +1,9 @@
 # Changelog
 
+## 12.0.3
+
+- [@sam-myers](https://github.com/sam-myers): Fix bug where an empty oplog would cause a crash when printing
+
 ## 12.0.2
 
 Readme update to say node 18 is required.
